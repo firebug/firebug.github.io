@@ -12,4 +12,8 @@ github_username:  firebug
 
 # Build settings
 markdown: kramdown
-exclude: ["package.json"]
+exclude: ["package.json", "Gemfile*"]
+
+#For local exposure to site.github namespace
+repository: github.com/firebug
+gems: ['github-pages']
