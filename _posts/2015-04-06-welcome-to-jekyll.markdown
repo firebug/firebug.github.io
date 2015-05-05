@@ -18,10 +18,18 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{{ site.github | jsonify }}
-<br/ >
-public_repo:
-{{ site.github.public_repositories | jsonify }}
+
+<p>
+ public_repo:
+{{ site.github.public_repositories | jsonify }} 
+
+</p>
+
+<div>
+  {% for repository in site.github.public_repositories %}
+    <div>{{ repository.full_name }} </div>
+  {% endfor %}
+</div>
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
