@@ -23,8 +23,7 @@ build it
 ```
 bundle exec jekyll serve
 ```
-Point your favourite browser(i.e FireFox)  to http://localhost:4000
 
 ##Additional Reading:
+[https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/ "Using Jekyll with Github Pages")
 
-https://help.github.com/articles/using-jekyll-with-pages/
